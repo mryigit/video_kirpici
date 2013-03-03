@@ -1,6 +1,6 @@
 function varargout = vide_cuter(varargin)
 % VIDE_CUTER M-file for vide_cuter.fig
-%      VIDE_CUTER, by itself, creates a new VIDE_CUTER or raises the existing
+%      VIDE_CUTER, by itself, creates a new VIDE_CUTER or raises the existingg
 %      singleton*.
 %
 %      H = VIDE_CUTER returns the handle to a new VIDE_CUTER or the handle to
