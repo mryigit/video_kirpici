@@ -75,7 +75,7 @@ varargout{1} = handles.output;
 
 % --- Executes on button press in sec.
 function sec_Callback(hObject, eventdata, handles)
-    set(handles.yazi,'String','videoda kesilecek sýnýrlarý belirlemek için mause ile sýnýrlarý seçiniz týpký paint deki resim kýrpma gibi');
+    set(handles.yazi,'String','videoda kesilecek sï¿½nï¿½rlarï¿½ belirlemek iï¿½in mause ile sï¿½nï¿½rlarï¿½ seï¿½iniz tï¿½pkï¿½ paint deki resim kï¿½rpma gibi');
     [filename, pathname] = uigetfile('*', 'Select a MATLAB code file');
     handles.fil = filename;
     handles.isim = [pathname, filename];
@@ -123,8 +123,8 @@ function calis_Callback(hObject, eventdata, handles)
         aviobj = addframe(aviobj, im2frame( imcrop( handles.gecici(:,:,:,i), handles.boyut ) ));
     end
     aviobj=close(aviobj);
-    yazdir{1} = 'yeni video oluþturuldu';
-    yazdir{2} = [handles.path,' adresine ',handles.fil(1:(length(handles.fil)-4)),'_yeni',' adýyla kaydedildi.'];
+    yazdir{1} = 'yeni video oluï¿½turuldu';
+    yazdir{2} = [handles.path,' adresine ',handles.fil(1:(length(handles.fil)-4)),'_yeni',' adï¿½yla kaydedildi.'];
     set(handles.yazi,'String',yazdir);
 
 guidata(hObject, handles);
